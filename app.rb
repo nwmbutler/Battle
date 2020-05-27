@@ -11,17 +11,6 @@ get '/cat' do
   </div>"
 end
 
-
 get '/secret' do
-  'this is secret'
-end
-
-get '/houses' do
-  "<div>
-  <img src=https://davidburr.co.uk/wp-content/uploads/2018/11/Victorian-Properties-1050x550.jpg>
-  </div>"
-end
-
-post '/hi' do
-"hi"
+  'this is not secret'
 end

@@ -1,3 +1,10 @@
+<% if @name == nil %>
+
+<form action="/named-cat" >
+<input type="text" name="name">
+<input type="submit" value="push">
+</form>
+<% end %>
 <h1>My name is <%= @name %></h1>
 
 <div style='border: 1px dashed red'>
